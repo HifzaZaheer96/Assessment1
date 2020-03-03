@@ -97,14 +97,14 @@ def nine(inputString, char):
 	return -1
 
 
-# def ten(string, int, char):
+def ten(string, int, char):
   
-# 	str= string.lower()
-#     n = int - 1
-#     result = str.find(char)
-#     if int > len(str):
-# 	    return False
-#     if (str[n] == char): 
-#         return True
-#     else:
-#         return False
+    x = len(string)
+    n = int - 1
+    result = string.find(char)
+    if int > x:
+	    return False
+    if (string[n] == char): 
+        return True
+    else:
+        return False
